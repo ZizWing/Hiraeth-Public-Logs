@@ -7,21 +7,21 @@ The fireflies flock smoothly within a specified range. Once they leave the range
 Below are some gifs of the behaviour with the new particle system.
 
 Flocking:
-![Flocking](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_1_2/products/Achieved%202/Particle%20Flocking.gif)
+![Flocking](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_1_2/products/Achieved%202/Particle%20Flocking.gif)
 
 Player Evasion:
-![Player Evasion](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_1_2/products/Achieved%202/Particle%20Evade%20Player.gif)
+![Player Evasion](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_1_2/products/Achieved%202/Particle%20Evade%20Player.gif)
 
 Absorb and Reposition:
-![Absorb and Reposition](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_1_2/products/Achieved%202/Particle%20Absorb%20%26%20Reposition.gif)
+![Absorb and Reposition](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_1_2/products/Achieved%202/Particle%20Absorb%20%26%20Reposition.gif)
 
 Regarding the performance of the particle system... Here is a comparison between the two implementations. Please note that the recording software reduces the performance in both versions by a fair amount, but this should not make a huge difference for the results. Both scenes are roughly targeting a framerate of 60 FPS, but neither has been configured to perfectly match this value. The idea is that the difference in particle/object count shows the significance of the particle system, while roughly keeping within reason of the target framerate.
 
 GameObject implementation (2500 objects):
-![Performance Object Implementation](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_1_2/products/Achieved%202/Performance%20Object%20Implementation%20(2.5k).gif)
+![Performance Object Implementation](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_1_2/products/Achieved%202/Performance%20Object%20Implementation%20(2.5k).gif)
 
 Particle implementation (15000 particles):
-![Performance Particle Implementation](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_1_2/products/Achieved%202/Performance%20Particle%20Implementation%20(15k).gif)
+![Performance Particle Implementation](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_1_2/products/Achieved%202/Performance%20Particle%20Implementation%20(15k).gif)
 
 As demonstrated by the gifs, the particlesystem can have many more particles on-screen than it can with objects. It is also visible in the gif that non-scripted behaviour (flocking without player interferance) is much faster. The object implementation only gains a minimal performance boost when the player is not in range due to them running completely on scripts.
 

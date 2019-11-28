@@ -24,7 +24,7 @@ In general this performance script has been given low priority due to the fact t
 
 Below is a quick demonstration of the script. The actual performance gains are hard to capture in a gif without bloating the filesize to extreme amounts due to video length. As such I only show the combining in action in the editor. In the gif you can see the script disables the renderer of the individual meshes and only has its own renderer enabled with a new (nameless) mesh that consists of all child meshes. The green outlines you see after combining are the original meshes. This is something Unity shows when the renderer is disabled but the objects (or their parent) are selected. The combined mesh's materials are still visible through it though.
 
-![MeshCombiner gif](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_6/products/MeshCombiner.gif)
+![MeshCombiner gif](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_6/products/MeshCombiner.gif)
 
 The commits for this feature still live on their own branch, these can be found here:
 

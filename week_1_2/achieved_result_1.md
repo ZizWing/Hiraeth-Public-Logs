@@ -4,7 +4,7 @@ Achieved result 1 - Editor- and scene-specific code execution
 ## Description
 The absorb event for the firefly AI can be called by pressing spacebar, which will trigger it to transition into the absorb state. This behaviour is only present in the "Firefly example scene" scene when played through the Unity editor. In other words: The code snippet responsible for this behaviour does not affect any other scene nor will it affect the final game.
 
-![Scene-specific code execution](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_1_2/products/Achieved%201/W1-2_A1_Scene_Specific_Code.gif)
+![Scene-specific code execution](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_1_2/products/Achieved%201/W1-2_A1_Scene_Specific_Code.gif)
 
 |The commit(s)|The scene(s)|The gameobject(s)|The script(s)|
 |---------|--------|--------------|----------|

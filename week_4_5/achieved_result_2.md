@@ -9,12 +9,12 @@ Volumetric fog works and is easy to set up thanks to the built-in support in the
 Besides these drawbacks, setting up the fog is as simple as enabling the support in the render pipline, setting a global value and then adding volumes wherever you want. To make them move and use shapes a 3D Texture is required though.
 
 An example of the current fog effect in action:
-![Volumetric Fog](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_4_5/products/Achieved%202/Volumetric%20Fog.gif)
+![Volumetric Fog](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_4_5/products/Achieved%202/Volumetric%20Fog.gif)
 
 Afterwards I started to look into performance, just to make sure the fog wasn't too heavy on the game. What I found instead was that Area 3 and the lighting caused my machine to suffer far more than the fog I implemented. The way I managed to find this is through a CPU process in the profiler. The process named "Gfx.WaitForPresent" was being called whenever the framerate got below 60 FPS. From what I can tell this indicates a GPU bottleneck since the CPU is waiting for a response here. The actual cause is somewhat unclear considering many people run into this issue on the Unity forums, all with various causes.
 
 An example of the process in question:
-![Gfx.WaitForPresent Graph](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_4_5/products/Achieved%202/Gfx.WaitForPresent.png)
+![Gfx.WaitForPresent Graph](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_4_5/products/Achieved%202/Gfx.WaitForPresent.png)
 
 Here you can see the difference in frametime clearly. Before the spikes of Gfx.WaitForPresent (lightgreen) I am looking away from area 3, while I am look at area 3 when the spikes occur.
 

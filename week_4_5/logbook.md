@@ -15,7 +15,7 @@ Since I installed the new Unity version in parallel I was able to perform some m
 
 | Hours | Task | With Who | Result | Link |
 |-------|------|----------|--------|------|
-| 2.5 | Cleaning up the file hierarchy & documenting the structure | Maurice & Leroy (deciding on what can be removed etc.) | A clean root directory in development | ![Diagram](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_4_5/products/Week%204%20File%20Hierarchy/Unity%20File%20Hierarchy%20Diagram.png) |
+| 2.5 | Cleaning up the file hierarchy & documenting the structure | Maurice & Leroy (deciding on what can be removed etc.) | A clean root directory in development | ![Diagram](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_4_5/products/Week%204%20File%20Hierarchy/Unity%20File%20Hierarchy%20Diagram.png) |
 | 3 | Fixing the Unity package manager | N/A | Resotred packages and Unity is capable of running again | N/A |
 
 ### Wednesday

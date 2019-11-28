@@ -8,7 +8,7 @@ To get around this I worked with the art team to separate the object into multip
 
 As for the final implementation... The bridge snaps in half in the middle when the Bleddyn enters the trigger (also placed in the middle for now). This causes the collisions of the bridge to disappear and everything on it to fall down. Below is a gif showing off this functionality by using the player to trigger the collapse (for ease of use, just imagine a Bleddyn walking there instead).
 
-![BridgeCollapse](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_7_8/products/BridgeCollapse.gif)
+![BridgeCollapse](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_7_8/products/BridgeCollapse.gif)
 
 |The commit(s)|The scene(s)|The gameobject(s)|The script(s)|
 |---------|--------|--------------|----------|
@@ -19,7 +19,7 @@ Thanks to Leroy we had Occlusion Culling working in an earlier test version of t
 
 A short gif of the final version can be seen here:
 
-![occlusion culling](https://github.com/HANICA-GAME/sep2018-stud-lucas-van-swaay/blob/master/Project%20-%20Programming/individual/week_7_8/products/OcclusionCulling.gif)
+![occlusion culling](https://github.com/ZizWing/Hiraeth-Public-Logs/blob/master/week_7_8/products/OcclusionCulling.gif)
 
 |The commit(s)|The scene(s)|The gameobject(s)|The script(s)|
 |---------|--------|--------------|----------|
