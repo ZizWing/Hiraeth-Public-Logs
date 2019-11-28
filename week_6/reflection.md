@@ -1,0 +1,19 @@
+Reflection
+==========
+
+## Last week
+
+1. What went well last week and to which extent have the planned results been achieved?
+> This week I created a prototype for the mesh combiner based on my performance research. Implementation was fast due to extensive research and I quickly got decent results. In other words the large amount of research saved me a lot of time when implementing the feature. The total time spent is still a fair amount, but should in general have been reduced at least a little due to the research.
+
+2. What did not go well, what annoyed you and what shouldn't happen again?
+> Re-scaling level 1 gave me some issues. Apparently the art team was working on the same areas and thus I had to re-do this later. This is a case where I needed to double check with other teams before starting on it. I did this initially, but a day went by and so it still got mixed up in the end. Working on scenes is tricky due to the potential merge conflicts and limited knowledge of version control by the art team specifically. What could have helped in this case is some sort of system where a teammember can "claim" a scene while working on a task. Others could then see which scenes are being worked on, which could prevent these miscommunications. I'm not currently aware of any easy (and free) system to do this with other than just using a whiteboard or something like that.
+
+> The performance gains from the mesh combiner were minimal at best (granted it is still a work-in-progress). Combined with some more complicated issues like meshes with multiple materials and submeshes multiplying the final vertex count, it quickly became clear that this may not be usable before the end of the project. That said, it is something I will work on in my own time eventually. It functions correctly on meshes with the same (single) material for now, but won't be usable during our project sadly. I discussed this with Marco and we came to the agreement that it'd be wiser to spend my time optimizing elsewhere. As such I made plans to look into improving my profiling skills and use them later on to find sources of performance problems we can fix more easily. (I ended up doing this in the final sprint.) This is also a case of my previously stated reflection where I started looking for (professional) help earlier on before wasting my time on trying to fix things all by myself.
+
+3. What will you improve next time?
+> I need to balance my time researching topcis a little better. I could have started with a prototype way earlier than I did with only minimal time loss. I feel like this will improve over time when I get more experience with Unity and game development in general, but it is something I need to look into regardless. Knowing when to call it quits on such tasks can potentially save a lot of time, and it's not like I can't do more research during the prototyping phase either. In other words: I need to work on my personal planning of tasks.
+
+> In future projects I will try and plead for all teams to work with the same issue tracker so it will be less likely that people are working in the same scenes. This should minimize conflicts like my re-scaling case and should help identify if people are working on things you need.
+
+> Regarding performance: I need to ask people with more experience directly for guidelines because of my lack of experience. This would help me pinpoint troublesome areas of the game better and prevents me from spending time on minimal gains. I already contacted Marco about this and we decided to focus on lighting for now and return to the mesh combiner afterwards if necessary. This extends to other unknown systems as well. Perhaps using online forums and such is a good way to get help in a larger time period. For now I'll stick to asking teammembers and teachers if needed.
